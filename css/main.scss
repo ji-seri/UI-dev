@@ -1,0 +1,23 @@
+$backgroundColor: #0D3D6E;
+$basicFontColor: white;
+$basicFontSize: 12px;
+$basicFontFamily: "Open Sans";
+$defaultWidth: 100%;
+
+html {
+  color: $basicFontColor;
+  width: $defaultWidth;
+  height: auto;
+
+  body {
+    margin: 0;
+    background-color: $backgroundColor;
+    font-family: $basicFontFamily;
+    font-size: $basicFontSize;
+
+    #header{
+      width: $defaultWidth;
+      height: 50px;
+    }
+  }
+}
