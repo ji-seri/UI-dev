@@ -1,7 +1,28 @@
 $(document).ready(function() {
-    $("div#viewTable table tbody tr").on('click', function(){
-        alert("Are you click my tr tag??");
-    });
+  /*
+   * Issue: can't use dir instead of http url
+   * (2. Server Data exercise > Task 1)
+   */
+  $.ajax({
+    url: "data_from_api/servers_table.json",
+    type: 'GET',
+    success: function(data){
+      var result = '<tr>'
+      $.each(data, function(key, val){
+          result += '<td>' + val + '</td>'
+      });
+      result += '</tr>'
+      //alert(result);
+      $('#viewList').html(result);
+    },
+    error: function () {
+       alert("couldn't get json file");
+   }
+  });
+
+  $("div#viewTable table tbody tr").on('click', function(){
+      alert("Are you click my tr tag??");
+  });
 });
 
 

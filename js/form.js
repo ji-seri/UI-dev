@@ -11,7 +11,7 @@ $(document).ready(function() {
   });
   $("#submit_btn").click(function(){
     alert("Submitted");
-    var action = "./server_address.php"
+    var action = "./server_address"
     $("#account_form").submit();
 });
 });
