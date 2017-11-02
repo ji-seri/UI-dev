@@ -21,7 +21,7 @@ body {
   background-color : #364049;
   width : 100%;
   min-width : 650px;
-  height : 300px;
+  height : 400px;
 }
 .footer {
   background-color : #475562;
@@ -32,7 +32,7 @@ body {
 }
 #summary {
   font-size: 32px;
-  padding: 20px 20px 20px 20px;
+  padding: 40px 20px 40px 20px;
 }
 #form {
   padding-left: 20px;
@@ -40,20 +40,23 @@ body {
 }
 .name {
   float:left;
-  width: 30%;
-  min-width: 200px;
-  padding: 11px 10px;
+  font-size: 14px;
+  width: 20%;
+  min-width: 100px;
+  height: 30px;
+  padding: 5px 10px 5px 10px;
 }
 .content {
   float: left;
-  width: 60%;
+  width: 70%;
+  height: 30px;
   min-width: 200px;
-  padding: 10px 10px;
+  padding: 5px 10px 5px 10px;
 }
 input {
   border-radius: 0;
   box-sizing: border-box;
-  padding : 3px 10px 0px 0px;
+  padding : 5px 10px 5px 10px;
   margin  : 0;
   width   : 400px;
 }
