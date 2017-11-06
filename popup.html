@@ -10,9 +10,6 @@
     <link rel = "stylesheet" type = "text/css" href = "./css/form.css">
   </head>
   <body>
-    <div class="open_btn">
-      <button id="open_btn">Open the form</button>
-    </div>
     <div id="popup">
       <div class="header">
         Add Account
@@ -23,20 +20,13 @@
         </div>
         <div id="form">
           <div class="name">Name</div>
-          <div class="content"><input type="text" name="name" placeholder="Enter a valid email address" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></div>
+          <div class="content"><input type="text" name="name"></div>
           <div class="name">Department</div>
-          <div class="content">
-            <select required="required">
-            <option selected value=""></option>
-            <option value="ns">Network service division</option>
-            <option value="ms">Management service division</option>
-            <option value="cl">Cloud service division</option>
-            </select>
-          </div>
+          <div class="content"><input type="text" name="department"></div>
           <div class="name">Access Key ID</div>
-          <div class="content"><input type="text" name="access_id" placeholder = "Enter a valid access key" required></div>
+          <div class="content"><input type="text" name="access_id"></div>
           <div class="name">Secret Access Key</div>
-          <div class="content"><input type="text" name="scret_key" placeholder = "Enter a valid secret access key" required></div>
+          <div class="content"><input type="text" name="scret_key"></div>
         </div>
       </div>
       <div class="footer">

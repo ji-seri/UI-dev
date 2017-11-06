@@ -4,17 +4,25 @@ html {
   height: 100%;
 }
 body {
-    margin: 0;
-    background-color: #1c2e3d;
-    font-family: "Open Sans";
-    font-size: 12px;
+  margin: 0;
+  background-color: #1c2e3d;
+  font-family: "Open Sans";
+  font-size: 12px;
+}
+.open_btn {
+  padding: 10px 10px 10px 10px;
+}
+#popup {
+  float: left;
+  width: 100%;
+  display: none;
 }
 .header {
   background-color : #5b6773;
-  width : 100%;
-  min-width : 650px;
+  width : 100%-20px;
+  min-width : 600px;
   height : 40px;
-  font-size: 20px;
+  font-size: 16px;
   padding: 10px 0px 0px 10px;
 }
 .body {
@@ -25,10 +33,12 @@ body {
 }
 .footer {
   background-color : #475562;
-  width : 100%;
-  min-width : 650px;
-  height : 100px;
-  border-top: 3px soild #1c2e3d;
+  width : 100%-30px;
+  min-width : 600px;
+  height : 70px;
+  border-top: 3px solid #1c2e3d;
+  padding: 30px 30px 0px 0px;
+  text-align: right;
 }
 #summary {
   font-size: 32px;
@@ -59,4 +69,32 @@ input {
   padding : 5px 10px 5px 10px;
   margin  : 0;
   width   : 400px;
+  height: 25px;
+}
+select:required, input:required {
+	border: 1px solid blue;
+}
+select:valid, input:valid {
+	border: 1px solid green;
+}
+select:invalid, input:invalid {
+	border: 1px solid red;
+}
+select {
+  width: 400px;
+  height: 25px;
+  padding-left: 10px;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+#submit_btn {
+  font-size: 16px;
+  width: 120px;
+  height: 30px;
+  background-color: #11baef;
+  color: #1b2e3e;
+  border: none;
+  padding: 2px 2px 2px 2px;
 }

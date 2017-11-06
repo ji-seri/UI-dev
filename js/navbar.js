@@ -96,20 +96,6 @@ var json_obj = [{
 
 $(document).ready(function() {
     /*
-     * Issue: can't use dir instead of http url
-     * (3. Navbar Exercise > Task 3)
-    $.ajax({
-      url: "data_from_api/menus.json",
-      type: 'GET',
-      success: function(data){
-        successCallback(data);
-      },
-      error: function () {
-        alert("couldn't get json file");
-     }
-    });
-   */
-    //function successCallback(){
     for (i in json_obj){
       var result = '<div class="dropdown"><button class="dropbtn"><a href="' + json_obj[i].href + '">' + json_obj[i].title + '</a></button><div class="dropdown-content">'
       for (j in json_obj[i].menu) {
@@ -119,7 +105,7 @@ $(document).ready(function() {
       //alert(result);
       $('.navbar').append(result);
     }
-    //}
+    */
 
     $("div.dropdown-content a").on('click', function(){
       var basic_url = 'file:///Users/seri/html-exercises/navbar.html'

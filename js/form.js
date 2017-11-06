@@ -2,6 +2,7 @@ $(document).ready(function() {
     /* from the server */
   var tmpl = "<option value='' selected></option>"
   var json = { 'option1':'Cloud Service division', 'option2':'Network Service division', 'option3':'Management Service division', 'option4':'Application Content division'};
+
   $.each(json, function(key, value){
     //alert('key:' + key + ' / ' + 'value:' + value);
     $('.selectbox').append($('<option>', {
@@ -13,5 +14,13 @@ $(document).ready(function() {
     alert("Submitted");
     var action = "./server_address"
     $("#account_form").submit();
-});
+  });
+
+  $("button#open_btn").click(function(){
+    if($("#popup").css("display") == 'none'){
+      $("#popup").css("display", "block");
+    }else{
+      $("#popup").css("display", "none");
+    }
+  });
 });

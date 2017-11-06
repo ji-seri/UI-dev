@@ -12,14 +12,14 @@ body {
 #menus {
   background-color : #284158;
   width : 100%;
-  min-width : 700px;
+  min-width : 650px;
   height : 50px;
+  margin:0px auto;
 }
 #breadcrumb {
-  float: left;
-  width : 20%;
-  height: 50px;
-  min-width : 200px;
+  float : left;
+  width : 19%;
+  min-width : 100px;
 }
 ul.breadcrumb {
     padding : 3px 5px;
@@ -44,14 +44,13 @@ ul.breadcrumb li a:hover {
     text-decoration : underline;
 }
 .navbar {
-    float:right;
+    float : left;
     font-size : 14px;
-    width : 40%;
-    height : 50px;
+    width : 80%;
     min-width: 500px;
 }
 .navbar a {
-    float : left;
+    float : right;
     font-size : 14px;
     color : white;
     text-align : center;
@@ -59,7 +58,7 @@ ul.breadcrumb li a:hover {
     background-color : inherit;
 }
 .dropdown {
-    float : left;
+    float : right;
 }
 .dropdown .dropbtn {
     font-size : 14px;
