@@ -22,8 +22,6 @@ table {
 table thead{
   width:100%;
   height:50px;
-  display: block;
-  overflow: auto;
 }
 thead tr{
   width:100%;
@@ -32,8 +30,6 @@ thead tr{
 tbody {
   width:100%;
   height:800px;
-  display: block;
-  overflow: auto;
 }
 tbody tr {
   width:100%;

@@ -62,12 +62,15 @@ ul.breadcrumb li a:hover {
     float : left;
 }
 .dropdown .dropbtn {
+    height: 50px;
+    width: 100px;
     font-size : 14px;
     border : none;
     outline : none;
     color : white;
     padding : 14px 16px;
     background-color : inherit;
+    border-left: 1px solid #39526a;
 }
 .dropdown .end {
   margin-right: 80px;

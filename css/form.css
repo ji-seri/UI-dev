@@ -68,8 +68,8 @@ input {
   box-sizing: border-box;
   padding : 5px 10px 5px 10px;
   margin  : 0;
-  width   : 400px;
-  height: 25px;
+  width   : 250px;
+  height  : 30px;
 }
 select:required, input:required {
 	border: 1px solid blue;
@@ -81,8 +81,8 @@ select:invalid, input:invalid {
 	border: 1px solid red;
 }
 select {
-  width: 400px;
-  height: 25px;
+  width: 250px;
+  height: 30px;
   padding-left: 10px;
   border-radius: 0px;
   -webkit-appearance: none;
@@ -90,7 +90,8 @@ select {
   appearance: none;
 }
 #submit_btn {
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: bold;
   width: 120px;
   height: 30px;
   background-color: #11baef;
